@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+    <NavigationBar></NavigationBar>
+
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
@@ -7,10 +9,12 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import NavigationBar from "@/components/NavigationBar";
 
 export default {
   name: 'App',
   components: {
+    NavigationBar,
     HelloWorld
   }
 }
