@@ -47,4 +47,14 @@ export default {
 
 <style scoped>
 
+.form-inline{
+  display: flex;
+}
+.mr-sm-2{
+  margin-right: 8px;
+}
+.navbar{
+  padding:12px;
+}
+
 </style>
