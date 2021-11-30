@@ -7,7 +7,7 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item onclick="location.href='/create-form'">Opret ticket</b-nav-item>
+          <b-nav-item v-bind:to="'/create-form'">Opret ticket</b-nav-item>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
