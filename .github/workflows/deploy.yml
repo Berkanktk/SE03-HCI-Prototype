@@ -4,7 +4,7 @@ on:
     branches:
       - master
 jobs:
-  gh-pages-deploy:
+  build:
     name: Deploying to Github Pages
     runs-on: ubuntu-latest
     steps:
