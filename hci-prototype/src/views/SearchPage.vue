@@ -59,7 +59,11 @@ export default {
     meta: [
       {charset: 'UTF-8'},
       {name: 'description', content: 'Search for support guides'},
-      {name: 'viewport', content: 'width=device-width, initial-scale=1'}
+      {name: 'viewport', content: 'width=device-width, initial-scale=1'},
+      {name: 'keywords', content: 'ticket support search guide'},
+      {name: 'audience', content: 'everyone'},
+      {name: 'author', content: 'SDU'},
+      {name: 'publisher', content: 'SDU'},
     ]
   },
   data() {
