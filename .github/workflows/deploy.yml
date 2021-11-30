@@ -13,10 +13,10 @@ jobs:
         with:
           node-version: '12'
       - name: Install packages
-        working-directory: ./app
+        working-directory: ./hci-prototype
         run: npm i
       - name: Set Creds
-        working-directory: ./app
+        working-directory: ./hci-prototype
         run: npm run build
       - uses: actions/upload-artifact@v2
         with:
