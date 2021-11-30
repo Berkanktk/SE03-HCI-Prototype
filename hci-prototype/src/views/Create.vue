@@ -38,7 +38,7 @@
 
 
           <div id="buttons">
-            <button class="button-afbryd" onclick="location.href='/'">Afbryd</button>
+            <button class="button-afbryd" to="/">Afbryd</button>
             <button class="button-send">Send</button>
           </div>
 
@@ -58,7 +58,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
 .box{
   margin-top: 20px;
