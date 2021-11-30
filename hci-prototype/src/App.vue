@@ -10,7 +10,7 @@
 @import url('https://fonts.googleapis.com/css?family=Material+Icons+Round');
 
 #app {
-  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-family: Roboto, Helvetica, Arial, sans-serif, Inter;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

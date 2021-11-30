@@ -7,11 +7,7 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item href="#">Opret ticket</b-nav-item>
-          <b-nav-item v-bind:to="'/'">Home</b-nav-item>
-          <b-nav-item v-bind:to="'/about'">About</b-nav-item>
-          <b-nav-item v-bind:to="'/search'">Search</b-nav-item>
-          <b-nav-item href="#" disabled>Disabled</b-nav-item>
+          <b-nav-item>Opret ticket</b-nav-item>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
@@ -33,9 +29,16 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css?family=Inter');
 
 .form-inline{
   display: flex;
+}
+b-navbar-brand{
+  font-family: Inter;
+}
+b-nav-item{
+
 }
 
 .mr-sm-2{
