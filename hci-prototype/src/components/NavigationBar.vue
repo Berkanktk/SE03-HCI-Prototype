@@ -7,7 +7,7 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item>Opret ticket</b-nav-item>
+          <b-nav-item onclick="location.href='/create-form'">Opret ticket</b-nav-item>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
@@ -66,7 +66,5 @@ a.nav-link{
 .navbar{
   padding:12px;
   background-color: #7749F8;
-  border-radius: 4px;
-
 }
 </style>
