@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-navbar class="navbar" >
-      <b-navbar-brand href="#">Ticketo</b-navbar-brand>
+      <b-navbar-brand to="/">Ticketo</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
