@@ -14,7 +14,7 @@
         <b-navbar-nav class="ms-auto">
           <b-nav-form>
             <b-form-input size="sm" class="mr-sm-2" placeholder="Søg"></b-form-input>
-            <b-button size="lg" class="my-2 my-sm-0" type="submit">Søg</b-button>
+            <b-button size="sm" class="my-2 my-sm-0" type="submit">Søg</b-button>
           </b-nav-form>
         </b-navbar-nav>
       </b-collapse>
@@ -34,11 +34,26 @@ export default {
 .form-inline{
   display: flex;
 }
-b-navbar-brand{
+a.navbar-brand{
   font-family: Inter;
-}
-b-nav-item{
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
 
+}
+a.nav-link{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: center;
+  color: white;
+  background-color: white;
+  border-radius: 4px;
+  color: #7749F8;
 }
 
 .mr-sm-2{
