@@ -1,4 +1,4 @@
-name: Deploy to Github Pages
+name: Deploy Vue
 on:
   push:
     branches:
@@ -19,8 +19,8 @@ jobs:
         run: npm run build
       - uses: actions/upload-artifact@v2
         with:
-         name: files
-         path: dist
+          name: files
+          path: dist
 
   deploy:
     runs-on: ubuntu-latest
