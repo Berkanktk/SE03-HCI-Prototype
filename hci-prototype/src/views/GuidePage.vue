@@ -1,12 +1,21 @@
 <template>
-  <div>
-    <div class="mt-4">
-      <h4 >PRINT</h4 >
-      <b-card img-src="https://placekitten.com/300/300" img-alt="Card image" img-right>
-        <b-card-text>
-          Some quick example text to build on the card and make up the bulk of the card's content.
-        </b-card-text>
-      </b-card>
+  <div class="container d-flex align-items-center justify-content-center flex-column">
+    <div class="col-lg-6 col-md-8 col-sm-10">
+      <h1 class="mt-5 mb-5 text-center">Print en ordreliste </h1>
+
+      <div class="d-flex align-items-center input-group flex-row mb-4">
+        <div class="p-3 border rounded w-100 text-start">
+          <p>1. For at printe en ordre liste skal du være logget ind som bruger i systemet. Når du er logget ind, kan du som vist på billedet for neden vælge de ordre du gerne vil printe. </p>
+          <p>2. la al al lal alla al al lalal alalal l l la l a lal a</p>
+          <b-card-img alt="billde" src="#"></b-card-img>
+          <p>3. For at printe en ordre liste skal du være logget ind som bruger i systemet. Når du er logget ind, kan du som vist på billedet for neden vælge de ordre du gerne vil printe. </p>
+          <p>4. la al al lal alla al al lalal alalal l l la l a lal a</p>
+          <b-card-img alt="billde" src="#"></b-card-img>
+          <p>5. For at printe en ordre liste skal du være logget ind som bruger i systemet. Når du er logget ind, kan du som vist på billedet for neden vælge de ordre du gerne vil printe. </p>
+          <p>6. la al al lal alla al al lalal alalal l l la l a lal a</p>
+          <b-card-img alt="billde" src="#"></b-card-img>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -18,35 +27,6 @@ export default {
 </script>
 
 <style scoped>
-h4{
-  text-align: center;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 48px;
-  letter-spacing: -0.02em;
 
-  color: #152536;
-
-}
-
-.container{
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-
-.card{
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  position: absolute;
-
-  width: 1000px;
-  height: 558px;
-  left: 300px;
-  top: 142px;
-}
 
 </style>
