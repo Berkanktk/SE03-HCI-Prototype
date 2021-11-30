@@ -71,7 +71,7 @@ export default {
 .container {
   padding: 20px;
   margin: auto;
-  width: 50%;
+  width: 25%;
   border:1px solid rgb(185, 185, 185);
   border-radius: 10px;
   box-sizing: border-box;
