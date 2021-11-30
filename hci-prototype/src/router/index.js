@@ -23,6 +23,11 @@ const routes = [
     path: '/create-form',
     name: 'Create',
     component: create
+  },
+  {
+    path: '/guide-page',
+    name: 'GuidePage',
+    component: () => import('../views/GuidePage.vue')
   }
 ]
 

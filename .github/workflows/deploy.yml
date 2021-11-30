@@ -1,0 +1,38 @@
+name: Deploy Vue
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    name: Deploying to Github Pages
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '12'
+      - name: Install packages
+        working-directory: ./hci-prototype
+        run: npm i
+      - name: Set Creds
+        working-directory: ./hci-prototype
+        run: npm run build
+      - uses: actions/upload-artifact@v2
+        with:
+          name: files
+          path: ./hci-prototype/dist
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    name: Vue deploy
+    steps:
+      - uses: actions/download-artifact@v2
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./files
