@@ -51,6 +51,17 @@
 <script>
 export default {
   name: "SearchPage",
+  metaInfo: {
+    title: "Search support guides",
+    htmlAttrs: {
+      lang: 'da-DK'
+    },
+    meta: [
+      {charset: 'UTF-8'},
+      {name: 'description', content: 'Search for support guides'},
+      {name: 'viewport', content: 'width=device-width, initial-scale=1'}
+    ]
+  },
   data() {
     return {
       searchTerm: '',
