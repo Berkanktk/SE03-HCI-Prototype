@@ -1,48 +1,51 @@
 
 <template>
-  <div class="container">
-      <form action="/">
-          <fieldset>
-              <legend class="legend">Opret Ticket</legend>
 
-              <hr>
+  <div class="box">
+    <div class="container">
+        <form action="/">
+            <fieldset>
+                <legend class="legend">Opret Ticket</legend>
 
-              <div id="form">
-                  <label>Navn</label><br>
-                  <input type="text" id="fname" placeholder="Navn" required><br><br>
-              </div>
+                <hr>
 
-              <div id="form">
-                  <label>E-mail</label><br>
-                  <input type="email" id="email" placeholder="E-mail" required><br><br>
-              </div>
+                <div id="form">
+                    <label>Navn</label><br>
+                    <input class="custom" type="text" id="fname" placeholder="Navn" required><br><br>
+                </div>
 
-
-              <div id="form">
-                  <label>Kategori</label><br>
-                  <select name="category" id="category" required>
-                      <option value="">Vælg Kategori</option>
-                      <option value="it">IT</option>
-                      <option value="reklamation">Reklamation</option>
-                      <option value="Ordre">Ordre</option>
-                      <option value="teknisk-support">Teknisk support</option>
-                  </select><br><br>
-              </div>
-
-              <div id="form">
-                  <label>Besked</label><br>
-                  <textarea name="besked" id="besked" cols="40" rows="5" placeholder="Skriv din besked her" required></textarea><br><br>
-              </div>
+                <div id="form">
+                    <label>E-mail</label><br>
+                    <input class="custom" type="email" id="email" placeholder="E-mail" required><br><br>
+                </div>
 
 
-              <div id="buttons">
-                <button class="button-afbryd">Afbryd</button>
-                <button class="button-send">Send</button>
-              </div>
+                <div id="form">
+                    <label>Kategori</label><br>
+                    <select class="custom" name="category" id="category" required>
+                        <option value="">Vælg Kategori</option>
+                        <option value="it">IT</option>
+                        <option value="reklamation">Reklamation</option>
+                        <option value="Ordre">Ordre</option>
+                        <option value="teknisk-support">Teknisk support</option>
+                    </select><br><br>
+                </div>
 
-              <br><br>
-          </fieldset>
-      </form>
+                <div id="form">
+                    <label>Besked</label><br>
+                    <textarea class="custom" name="besked" id="besked" cols="40" rows="5" placeholder="Skriv din besked her" required></textarea><br><br>
+                </div>
+
+
+                <div id="buttons">
+                  <button class="button-afbryd">Afbryd</button>
+                  <button class="button-send">Send</button>
+                </div>
+
+                <br><br>
+            </fieldset>
+        </form>
+    </div>
   </div>
 </template>
 
@@ -50,13 +53,16 @@
     export default {
     name: 'create',
     props: {
-    msg: String
-}
-
+      msg: String
+    }
 }
 </script>
 
 <style>
+
+      .box{
+        margin-top: 20px;
+      }
 
       #buttons{
         float: right;
@@ -78,7 +84,6 @@
         display:inline-block;
         cursor:pointer;
         color:#ffffff;
-        font-family:Arial;
         font-size:15px;
         font-weight:bold;
         padding:9px 20px;
@@ -101,7 +106,6 @@
         display:inline-block;
         cursor:pointer;
         color:#ffffff;
-        font-family:Arial;
         font-size:15px;
         font-weight:bold;
         padding:9px 20px;
@@ -125,4 +129,14 @@
     button {
         margin-right: 5px;
     }
+
+    .custom {
+      width: 300px;
+      padding: 5px;
+      border: 1px solid #BFBFBF;
+      border-radius: 5px;
+      background-color: white;
+      box-shadow: 5px 5px 5px #aaaaaa;
+    }
+
 </style>
