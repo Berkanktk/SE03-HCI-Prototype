@@ -8,6 +8,7 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Material+Icons+Round');
+@import url('https://fonts.googleapis.com/css?family=Inter');
 
 #app {
   font-family: Roboto, Helvetica, Arial, sans-serif, Inter;
