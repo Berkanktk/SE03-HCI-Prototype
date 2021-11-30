@@ -1,7 +1,7 @@
 <template>
   <div class="container d-flex align-items-center justify-content-center flex-column">
-    <div class="col-lg-6 col-md-8 col-sm-10">
-      <h1 class="mt-5 mb-5">FAQ</h1>
+    <div class="col-12 col-xl-6 col-lg-8 col-md-10 col-sm-12">
+      <h1 class="mt-5 mb-5 text-center">FAQ</h1>
 
       <div class="d-flex align-items-center input-group flex-row mb-4">
         <input v-model="searchTerm" placeholder="Søg" type="text" class="form-control" />
