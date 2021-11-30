@@ -38,7 +38,7 @@
 
 
           <div id="buttons">
-            <button class="button-afbryd">Afbryd</button>
+            <button class="button-afbryd" onclick="location.href='/'">Afbryd</button>
             <button class="button-send">Send</button>
           </div>
 
