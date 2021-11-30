@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import create from '../views/Create.vue'
+import guidePage from "@/views/GuidePage";
 
 Vue.use(VueRouter)
 
@@ -27,7 +28,7 @@ const routes = [
   {
     path: '/guide-page',
     name: 'GuidePage',
-    component: () => import('../views/GuidePage.vue')
+    component: guidePage
   }
 ]
 
