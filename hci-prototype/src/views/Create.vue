@@ -2,7 +2,7 @@
 <template>
 
   <div class="box">
-    <div class="container">
+    <div class="container d-flex justify-content-center">
       <form action="/">
         <fieldset>
           <legend class="legend">Opret Ticket</legend>
