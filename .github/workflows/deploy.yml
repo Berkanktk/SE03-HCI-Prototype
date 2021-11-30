@@ -21,7 +21,7 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: files
-          path: dist
+          path: ./hci-prototype/dist
 
   deploy:
     runs-on: ubuntu-latest
