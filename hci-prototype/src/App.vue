@@ -8,13 +8,15 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Material+Icons+Round');
+@import url('https://fonts.googleapis.com/css?family=Inter');
 
-  #app {
-    font-family: Roboto, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: #2c3e50;
-  }
+#app {
+  font-family: Roboto, Helvetica, Arial, sans-serif, Inter;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
 
   #nav {
     padding: 30px;
