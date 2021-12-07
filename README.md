@@ -1,5 +1,7 @@
 # hci-prototype
 
+Github pages link: https://berkanktk.github.io/SE03-HCI-Prototype/
+
 ## Project setup
 ```
 npm install
